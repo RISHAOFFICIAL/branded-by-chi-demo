@@ -64,6 +64,40 @@
     text-decoration: none;
   }
 
+  /* ---------- Thanksgiving Banner ---------- */
+  .thanksgiving-banner {
+    background: linear-gradient(90deg, #8B4513, #C4704F, #D98E6E, #C4704F, #8B4513);
+    color: #FFF8E7;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 73px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .tb-emoji {
+    font-size: 18px;
+  }
+
+  .tb-text {
+    letter-spacing: 0.01em;
+  }
+
+  @media (max-width: 768px) {
+    .thanksgiving-banner {
+      font-size: 13px;
+      padding: 10px 16px;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+  }
+
   /* ---------- Falling Autumn Leaves ---------- */
   .falling-leaf {
     position: fixed;
@@ -1299,6 +1333,13 @@
   <a href="#reviews" onclick="toggleMobileNav()">Reviews</a>
   <a href="https://www.instagram.com/brandedthebest" target="_blank" rel="noopener">Instagram</a>
   <a href="https://brandedbychi.as.me/schedule/b8cb4b1c" target="_blank" rel="noopener" style="color: var(--terracotta-light);">Book Now →</a>
+</div>
+
+<!-- Thanksgiving Banner -->
+<div class="thanksgiving-banner">
+  <span class="tb-emoji">🦃</span>
+  <span class="tb-text">Happy Thanksgiving from Branded by Chi! Thankful for every client who sits in my chair.</span>
+  <span class="tb-emoji">🧡</span>
 </div>
 
 <!-- Hero -->
